@@ -1,9 +1,6 @@
-using System.Collections.Generic;
 using System.Threading;
-using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.InputSystem;
-using UnityEngine.InputSystem.Controls;
 using UnityEngine.InputSystem.LowLevel;
 using R3;
 
@@ -12,8 +9,6 @@ namespace ReactiveInputSystem
     public static partial class InputRx
     {
         static readonly object staticObject = new();
-
-        const int MouseButtonCount = 5;
 
         public static Observable<MouseButton> OnAnyMouseButtonDown(Mouse mouse, CancellationToken cancellationToken = default)
         {
