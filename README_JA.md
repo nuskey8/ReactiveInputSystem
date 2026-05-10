@@ -24,7 +24,7 @@ ReactiveInputSystemはInput Systemのイベントやデバイス入力をObserva
 3. 以下のURLを入力する
 
 ```
-https://github.com/AnnulusGames/ReactiveInputSystem.git?path=src/ReactiveInputSystem/Assets/ReactiveInputSystem
+https://github.com/nuskey8/ReactiveInputSystem.git?path=Assets/ReactiveInputSystem
 ```
 
 あるいはPackages/manifest.jsonを開き、dependenciesブロックに以下を追記
@@ -32,7 +32,7 @@ https://github.com/AnnulusGames/ReactiveInputSystem.git?path=src/ReactiveInputSy
 ```json
 {
     "dependencies": {
-        "com.annulusgames.reactive-input-system": "https://github.com/AnnulusGames/ReactiveInputSystem.git?path=src/ReactiveInputSystem/Assets/ReactiveInputSystem"
+        "com.nuskey8.reactive-input-system": "https://github.com/nuskey8/ReactiveInputSystem.git?path=Assets/ReactiveInputSystem"
     }
 }
 ```
