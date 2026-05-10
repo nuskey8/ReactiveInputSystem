@@ -24,7 +24,7 @@ ReactiveInputSystem is a library that provides functionality to convert events a
 3. Enter the following URL:
 
 ```plaintext
-https://github.com/AnnulusGames/ReactiveInputSystem.git?path=src/ReactiveInputSystem/Assets/ReactiveInputSystem
+https://github.com/nuskey8/ReactiveInputSystem.git?path=Assets/ReactiveInputSystem
 ```
 
 Alternatively, open Packages/manifest.json and add the following to the dependencies block:
@@ -32,7 +32,7 @@ Alternatively, open Packages/manifest.json and add the following to the dependen
 ```json
 {
     "dependencies": {
-        "com.annulusgames.reactive-input-system": "https://github.com/AnnulusGames/ReactiveInputSystem.git?path=src/ReactiveInputSystem/Assets/ReactiveInputSystem"
+        "com.nuskey8.reactive-input-system": "https://github.com/nuskey8/ReactiveInputSystem.git?path=Assets/ReactiveInputSystem"
     }
 }
 ```
