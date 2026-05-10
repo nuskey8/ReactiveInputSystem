@@ -1,13 +1,13 @@
 {
-    "name": "com.annulusgames.reactive-input-system",
-    "version": "0.1.0",
+    "name": "com.nuskey8.reactive-input-system",
+    "version": "1.0.0",
     "displayName": "Reactive Input System",
     "description": "Reactive Extensions for Unity Input System",
     "unity": "2019.4",
     "license": "MIT",
     "dependencies": {
         "com.unity.inputsystem": "1.0.0",
-        "com.cysharp.r3": "0.1.0"
+        "com.cysharp.r3": "1.0.0"
     },
     "keywords": [
         "Rx",
@@ -15,7 +15,7 @@
         "Input"
     ],
     "author": {
-        "name": "Annulus Games",
-        "url": "https://annulusgames.com/"
+        "name": "nuskey",
+        "url": "https://github.com/nuskey8"
     }
 }
